@@ -42,8 +42,10 @@ public class TempConverterActivity extends AppCompatActivity implements TextView
     public void onPause(){
         Editor editor = savedValues.edit();
         editor.putString("fahrenheitString", fahrenheitString);
+        //book suggests .submit()
+        //android studio suggest .apply()
+        //both work
         editor.apply();
-
         super.onPause();
     }
 
