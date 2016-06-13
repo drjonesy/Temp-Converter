@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Temp Converter</string>
+    <string name="fahrenheitEditText">f_degree</string>
+    <string name="celciusTextView">00.000</string>
+    <string name="fahrenheitTextOnly">Fahrenheit</string>
+    <string name="celsiusTextOnly">Celsius</string>
+    <string name="degreesTextOnly">Degrees</string>
+    <string name="_00_000">00.000</string>
+</resources>
